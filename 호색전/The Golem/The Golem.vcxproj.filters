@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="BackGround">
+      <UniqueIdentifier>{46eddff4-98a9-4cf6-ae57-f9789214ceae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Character">
+      <UniqueIdentifier>{5b950895-1d2a-4842-9776-9494872d96a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Item">
+      <UniqueIdentifier>{866d3f77-b7d2-46d2-a829-95ae0f1f3071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{e8464be7-b572-475d-81fe-d71a0373066a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dirext">
+      <UniqueIdentifier>{deabd90e-efa3-499a-91dd-072c05e4d96b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{b7b5f249-cea9-41fa-bad6-7e59262e1fab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Menu">
+      <UniqueIdentifier>{1560e43d-d7f2-47ce-bee8-b3c00b003c26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Stage1">
+      <UniqueIdentifier>{958d8c59-7bdc-416b-ad02-5dfb878202d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BackGround\Road">
+      <UniqueIdentifier>{89086665-706b-4ba5-99bb-39fdb509ef40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BackGround\Trap">
+      <UniqueIdentifier>{bd644abd-b48d-4d63-9e34-26c1316a4d2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemy">
+      <UniqueIdentifier>{aa8fd36a-9f6f-404a-9868-5a82b7d56f69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BackGround\View">
+      <UniqueIdentifier>{fa3b6d73-e8e5-4dc8-91f7-871ff0f1550a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BackGround\Altar">
+      <UniqueIdentifier>{cf4a7acf-9494-4708-ba1a-3b761d4e69b9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="device.cpp">
+      <Filter>Dirext</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>Dirext</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="character.cpp">
+      <Filter>Character</Filter>
+    </ClCompile>
+    <ClCompile Include="item.cpp">
+      <Filter>Item</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>Main\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="gauge.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="stage1.cpp">
+      <Filter>Main\Stage1</Filter>
+    </ClCompile>
+    <ClCompile Include="game_menu.cpp">
+      <Filter>Main\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="road.cpp">
+      <Filter>BackGround\Road</Filter>
+    </ClCompile>
+    <ClCompile Include="trap.cpp">
+      <Filter>BackGround\Trap</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite.cpp">
+      <Filter>Dirext</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>Dirext</Filter>
+    </ClCompile>
+    <ClCompile Include="mid_view.cpp">
+      <Filter>BackGround\View</Filter>
+    </ClCompile>
+    <ClCompile Include="distant_view.cpp">
+      <Filter>BackGround\View</Filter>
+    </ClCompile>
+    <ClCompile Include="loading.cpp">
+      <Filter>Main\Stage1</Filter>
+    </ClCompile>
+    <ClCompile Include="altar.cpp">
+      <Filter>BackGround\Altar</Filter>
+    </ClCompile>
+    <ClCompile Include="storyboard.cpp">
+      <Filter>Main\Stage1</Filter>
+    </ClCompile>
+    <ClCompile Include="LimitTime.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="clear.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="gameover.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Macro.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="gauge.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>Main\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="item.h">
+      <Filter>Item</Filter>
+    </ClInclude>
+    <ClInclude Include="character.h">
+      <Filter>Character</Filter>
+    </ClInclude>
+    <ClInclude Include="device.h">
+      <Filter>Dirext</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>Dirext</Filter>
+    </ClInclude>
+    <ClInclude Include="stage1.h">
+      <Filter>Main\Stage1</Filter>
+    </ClInclude>
+    <ClInclude Include="game_menu.h">
+      <Filter>Main\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="road.h">
+      <Filter>BackGround\Road</Filter>
+    </ClInclude>
+    <ClInclude Include="trap.h">
+      <Filter>BackGround\Trap</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite.h">
+      <Filter>Dirext</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>Dirext</Filter>
+    </ClInclude>
+    <ClInclude Include="mid_view.h">
+      <Filter>BackGround\View</Filter>
+    </ClInclude>
+    <ClInclude Include="distant_view.h">
+      <Filter>BackGround\View</Filter>
+    </ClInclude>
+    <ClInclude Include="loading.h">
+      <Filter>Main\Stage1</Filter>
+    </ClInclude>
+    <ClInclude Include="altar.h">
+      <Filter>BackGround\Altar</Filter>
+    </ClInclude>
+    <ClInclude Include="storyboard.h">
+      <Filter>Main\Stage1</Filter>
+    </ClInclude>
+    <ClInclude Include="LimitTime.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="clear.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="gameover.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
